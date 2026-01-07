@@ -498,6 +498,7 @@ with tab4:
     # ------------------------------------------------------------------
     # --- Simulation Results Table ---
     st.markdown("---") # Horizontal line for separation
+    st.markdown("To record data for tabulation, click on **Log Current Simulation**")   
     st.header("Simulation Results")
     
     # Create a placeholder for the table display
