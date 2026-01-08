@@ -630,3 +630,5 @@ with tab6:
     st.slider("How would you rate this simulator?(best -5)", 1, 5)
     st.text_area("Your comments...")
     st.button("Submit Feedback")
+    if st.button("Submit Feedback"):
+     st.success("Thank you for your valuable suggestion!")
